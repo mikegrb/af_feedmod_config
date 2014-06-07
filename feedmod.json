@@ -1,0 +1,47 @@
+{
+   "gizmodo":{
+      "type":"xpath",
+      "xpath":"div[contains(@class, 'branch-wrapper')]",
+      "force_charset":"utf-8"
+   },
+   "lifehacker":{
+      "type":"xpath",
+      "xpath":"div[contains(@class, 'branch-wrapper')]",
+      "force_charset":"utf-8"
+   },
+   "pressofatlanticcity":{
+      "type":"xpath",
+      "xpath":"div[@id='blox-story']",
+      "cleanup":[
+         "div[@id='in-media-box']",
+         "div[@id='blox-breadcrumbs']",
+         "div[contains(@class, 'addthis_toolbox')]",
+         "dl[@id='story-font-size']",
+         "ul[@id='blox-body-nav']",
+         "ul[contains(@class,'story-tools-sprite')]"
+      ]
+   },
+   "slashdot":{
+      "type":"xpath",
+      "xpath":"div[@class='body']"
+   },
+   "shorenewstoday":{
+      "type":"xpath",
+      "xpath":"div[@id='page']"
+   },
+   "patch.com":{
+      "type":"xpath",
+      "xpath":"div[contains(@class, 'post-body')]",
+      "cleanup":[
+         "div[contains(@class, 'share-wrapper')]"
+      ]
+   },
+   "makezine":{
+      "type":"xpath",
+      "xpath":"class[@class='post']",
+      "cleanup":[
+         "class[@class='sharedaddy']",
+         "class[@class='ctx_widget']"
+      ]
+   }
+}
